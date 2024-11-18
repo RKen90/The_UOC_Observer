@@ -1,0 +1,81 @@
+/* Remove default margin and padding from body and html */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%; /* Full height of the page */
+}
+
+/* Make sure the navbar has proper z-index so it stays above the image */
+.navbar {
+  z-index: 1;
+  position: relative;
+}
+
+/* Background image settings */
+.background-image {
+  position: absolute;
+  top: 56px; /* Push the image just below the navbar */
+  left: 0;
+  width: 100vw; /* Use viewport width for full screen width */
+  height: calc(100vh - 56px); /* Fill the rest of the screen below the navbar */
+  object-fit: cover; /* Ensure the image covers the space */
+  opacity: 0.75; /* Set image transparency */
+  z-index: -1; /* Place the image behind the content */
+}
+
+.background-image img {
+  width: 100%; /* Ensure the image stretches to the full width */
+  object-fit: cover; /* Ensure it covers the space without distortion */
+}
+
+/* Header styling */
+header {
+  background-color: #201e43;
+  text-align: center;
+  position: relative;
+  padding: 20px;
+}
+
+.header_img {
+  margin-top: 0;
+  height: 15%;
+  width: 15%;
+  margin-bottom: 1em;
+}
+
+h1 {
+  color: #e2e2b6;
+  font-size: 5em;
+  font-family: "Sofia", cursive;
+}
+
+h5 {
+  color: #508c9b;
+  font-family: "Lilita One", sans-serif;
+  font-size: 2em;
+}
+
+h2 {
+  font-family: "Lilita One", sans-serif;
+  padding-top: 1em;
+}
+
+/* Customize navbar */
+.navbar {
+  background-color: black;
+}
+
+.home {
+  text-decoration: none;
+}
+
+.eds_message {
+  text-align: center;
+  font-family: montserrat;
+}
+
+.ed {
+  height: 35%;
+  width: 35%;
+}
