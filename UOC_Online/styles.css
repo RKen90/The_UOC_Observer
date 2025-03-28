@@ -79,3 +79,56 @@ h2 {
   height: 35%;
   width: 35%;
 }
+
+.story-section {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.95
+  ); /* subtle background for readability */
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem auto;
+  max-width: 800px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: "Montserrat", sans-serif;
+  line-height: 1.6;
+}
+
+.story-section h2 {
+  font-family: "Lilita One", sans-serif;
+  color: #201e43;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.story-section h4 {
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.story-section p {
+  margin-bottom: 1rem;
+  font-size: 1.05rem;
+}
+
+@media (max-width: 768px) {
+  .story-section {
+    padding: 1rem;
+    margin: 1rem;
+  }
+
+  .story-section p {
+    font-size: 1rem;
+  }
+}
+
+.img {
+  width: 200px;
+  height: 300px;
+}
+
+h2 {
+  text-align: center;
+}
